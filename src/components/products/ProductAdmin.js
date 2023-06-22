@@ -14,7 +14,12 @@ class ProductAdmin extends React.Component{
     componentDidMount() {
         this.getProducts();
     }
-
+    // componentWillUnmount() {
+    //     // fix Warning: Can't perform a React state update on an unmounted component
+    //     this.setState = (state,callback)=>{
+    //         return;
+    //     };
+    // }
     // get all products
     getProducts = () => {
         let dataURL = `http://127.0.0.1:5000/api/products`;

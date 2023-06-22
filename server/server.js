@@ -23,7 +23,7 @@ app.get('/', (request , response) => {
 });
 
 // connect to Mongo DB Database
-mongoose.connect(process.env.MONGO_DB_LOCAL_URL, {
+mongoose.connect(process.env.MONGO_DB_CLOUD, {
     useUnifiedTopology : true,
     useNewUrlParser : true,
     useFindAndModify : false,

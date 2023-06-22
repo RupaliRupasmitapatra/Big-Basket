@@ -9,9 +9,6 @@ import CreateProduct from "./components/products/CreateProduct";
 import UpdateProduct from "./components/products/UpdateProduct";
 
 class App extends React.Component{
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (
