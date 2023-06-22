@@ -88,7 +88,7 @@ class CreateProduct extends React.Component{
                                         voluptates.</p>
                                 </div>
                             </div>
-                            <pre>{JSON.stringify(this.state)}</pre>
+                            {/*<pre>{JSON.stringify(this.state)}</pre>*/}
                              <div className="row animated flipInY delay-1s">
                                 <div className="col-md-5">
                                     <div className="card">
